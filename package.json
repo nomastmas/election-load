@@ -1,0 +1,24 @@
+{
+  "name": "loadtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:load": "artillery run artillery.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomastmas/loadtest.git"
+  },
+  "author": "nomastmas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomastmas/loadtest/issues"
+  },
+  "homepage": "https://github.com/nomastmas/loadtest#readme",
+  "dependencies": {
+    "@playwright/test": "^1.48.2",
+    "artillery": "^2.0.21"
+  }
+}
